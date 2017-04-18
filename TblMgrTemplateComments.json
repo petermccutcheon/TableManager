@@ -1,0 +1,54 @@
+{
+	"database": "",			!String with the database filename and path.
+	"databasetype": "",		!String with the type of database engine (for now just SQLite3 and MySql).
+	"databaseuser" : "",	!String with the database username.
+	"databasepwd": "",		!String with the database password.
+	"divID": "",			!String with the name of the html division that will contain the table.
+	"tblName": "",			!String with the name of the ID for the html table tag
+	"head": true,			!Boolean indicating if there are headings or not.
+	"data": true,			!Boolean indicating if there will be data loaded into the table after creation.
+	"rCnt": 0,				!Integer that will be updated with the number of rows in the final table.
+	"cCnt": 0,				!Integer that is the count of the columns that will be displayed.
+	"tCLS": "",				!String CSS classname for the table tag.
+	"rCLS": "",				!String CSS classname for the rows.
+	"cCLS": "cellclass",	!String CSS classname for cells.
+	"hCLS": "bgheader",		!String CSS classname for the header row.
+	"bCnt": 3, 				!Integer that is the count of the number of buttons related to table modification, as of now just 3 Add, Delete, Save/Close.
+	"bttns":				!This structure holds the definition for the buttons.
+	[
+		{
+			"ids": "add",		!String ID for this button. 
+			"cls": "", 			!String CSS classname for this button.
+			"txt": "Add Row" 	!String text that will display on the button.
+		},
+		{
+			"ids": "rem", 		!Same as above for this button.
+			"cls": "", 
+			"txt": "Remove Row"
+		},
+		{
+			"ids": "sav", 		!Same as above for this button.
+			"cls": "", 
+			"txt": "Save/Close Table" 
+		}
+	],
+	"headings": [""],			!Array of strings that will be the text for the headings.
+	"fnames": [""],				!Array of strings that are the actual fieldnames for the SQL table that is connected to this html table.
+	"colDisplay": [],			!Array of booleans that indicate whether a field will actually be displayed as a column.
+	"keys": [""],				!Array of strings that are SQL fielnames that are actual keys on the SQL Table or that will be used for Where clauses.
+	"cls": [""],				!Array of strings for CSS classnames for each input by column.
+	"types": [""],				!Array of strings that are the html input types for each column.
+	"seltbl": [],				!The next 6 fields will implement a way to have dropdown select input for a row in the html table.
+	"seltblnam": [""],			!These will allow for the updating of an SQL table linked to the dropdown select.
+	"seltbllookup": [""],		!THIS IS STILL IN DEVELOPMENT AND WILL BE IMPLEMENTED LATER.
+	"seltbldisp": [""],
+	"seltblvalue": [[""]],
+	"seltblopt": [[""]],		!STILL IN DEVELOPMENT.
+	"theRows":					!This structure will contain the actual data from the SQL table.
+	[
+		{
+			"cdata": [""]
+		}
+	],
+	"AppInfo": ""				!This is used for miscellaneous information that may need to be sent to the server.
+}

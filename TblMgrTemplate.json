@@ -1,0 +1,54 @@
+{
+	"database": "",			
+	"databasetype": "",		
+	"databaseuser" : "",	
+	"databasepwd": "",		
+	"divID": "",			
+	"tblName": "",			
+	"head": true,			
+	"data": true,			
+	"rCnt": 0,				
+	"cCnt": 0,				
+	"tCLS": "",				
+	"rCLS": "",				
+	"cCLS": "cellclass",	
+	"hCLS": "bgheader",		
+	"bCnt": 3, 				
+	"bttns":				
+	[
+		{
+			"ids": "add",		
+			"cls": "", 			
+			"txt": "Add Row" 	
+		},
+		{
+			"ids": "rem", 		
+			"cls": "", 
+			"txt": "Remove Row"
+		},
+		{
+			"ids": "sav", 		
+			"cls": "", 
+			"txt": "Save/Close Table" 
+		}
+	],
+	"headings": [""],			
+	"fnames": [""],				
+	"colDisplay": [],			
+	"keys": [""],				
+	"cls": [""],				
+	"types": [""],				
+	"seltbl": [],				
+	"seltblnam": [""],			
+	"seltbllookup": [""],		
+	"seltbldisp": [""],
+	"seltblvalue": [[""]],
+	"seltblopt": [[""]],		
+	"theRows":					
+	[
+		{
+			"cdata": [""]
+		}
+	],
+	"AppInfo": ""				
+}
